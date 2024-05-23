@@ -1,0 +1,74 @@
+body {
+  background-image: url(src/img/PokeBG4.png);
+  background-size: cover;
+}
+.boss {
+  padding-left: 250px;
+  width: 300px;
+}
+.move {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.Pokemon {
+  width: 350px;
+  padding-left: 350px;
+  padding-top: 50px;
+}
+.w {
+  background: rgb(165, 163, 163);
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้กับโค้ด */
+  border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+  padding: 10px; /* เพิ่ม padding เพื่อทำให้เนื้อหาอยู่ห่างจากขอบ */
+}
+.cmove {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  background: seashell;
+}
+.pokename1 {
+  background: rgb(165, 163, 163);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้กับโค้ด */
+  border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+  padding: 10px; /* เพิ่ม padding เพื่อทำให้เนื้อหาอยู่ห่างจากขอบ */
+}
+.pokename2 {
+  background: rgb(214, 214, 214);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้กับโค้ด */
+  border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+  padding: 10px; /* เพิ่ม padding เพื่อทำให้เนื้อหาอยู่ห่างจากขอบ */
+  text-transform: capitalize;
+}
+.l1 {
+  padding-left: 550px;
+
+  
+}
+.l2 {
+  padding-left: 400px;
+  padding-top: 125px;
+  
+}
+.flex1{
+  display: flex;
+  padding-top: 150px;
+}
+.flex2{
+  display: flex;
+  
+}
+.head{
+  background: rgb(237, 208, 208);
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้กับโค้ด */
+  border: 1px solid #000000; /* เพิ่มเส้นขอบ */
+  padding: 10px; /* เพิ่ม padding เพื่อทำให้เนื้อหาอยู่ห่างจากขอบ */
+}
+
